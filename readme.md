@@ -1,5 +1,6 @@
 Codigos captcha
 =======
+[![CodeFactor](https://www.codefactor.io/repository/github/mateodioev/captcha-img/badge)](https://www.codefactor.io/repository/github/mateodioev/captcha-img)
 
 ![](https://i.imgur.com/35T2UP7.png)
 
