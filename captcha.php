@@ -19,7 +19,7 @@ class Captcha {
     }
   
     private function GenCode() {
-      $id = '1234567890qwertyuiopasdfghjklzxcvbnmWERTYUIOPASDFGHJKLZXCVBNM';
+      $id = '1234567890qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM';
       $length_id = strlen($id) - 1;
       $result = '';
 
@@ -54,9 +54,9 @@ class Captcha {
         $text_height = max([$text_size[5], $text_size[7]]) - min([$text_size[1], $text_size[3]]);
 
         // CENTERING THE TEXT BLOCK
-        $centerX = CEIL(($width - $text_width) / 2);
+        $centerX = ceil(($width - $text_width) / 2);
         $centerX = $centerX<0 ? 0 : $centerX;
-        $centerX = CEIL(($height - $text_height) / 2);
+        $centerX = ceil(($height - $text_height) / 2);
         $centerY = $centerX<0 ? 0 : $centerX;
 
         // RANDOM OFFSET POSITION OF THE TEXT + COLOR
