@@ -1,0 +1,12 @@
+{
+    "name": "mateodioev/captcha_img",
+    "description": "Create easy captcha images",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Mateodioev\\CaptchaImg\\": "src/"
+        }
+    },
+    "require": {}
+}

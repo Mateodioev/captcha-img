@@ -1,9 +1,10 @@
 <?php
 
+namespace Mateodioev\CaptchaImg;
+
 /** 
  * @author https://github.com/Mateodioev
 */
-
 class Captcha {
 
     private $length;
