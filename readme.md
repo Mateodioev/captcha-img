@@ -4,11 +4,6 @@ Codigos captcha
 
 ![](https://i.imgur.com/35T2UP7.png)
 
-- Genera imágenes aleatorias que pueden ser usadas como un captcha simple
-  - Características: 
-    1. Tres fuentes diferentes (18thCentury, 39 Smooth, Arial)
-    2. Dos backgrounds
-
 Genera la imagen
 ---------
 
