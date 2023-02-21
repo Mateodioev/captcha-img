@@ -8,5 +8,7 @@
             "Mateodioev\\CaptchaImg\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+      "ext-gd": "*"
+    }
 }
